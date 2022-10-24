@@ -1,6 +1,6 @@
 # Ejercicio 1
 
-print("Por Favor ingrese numeros enteros.")
+print("Por Favor ingrese numeros enteros posotivos: .")
 a= int(input('Ingrese el primer Numero: '))
 b = int(input('Ingrese el segundo numero: '))
 c = int(input('Ingrese el tercer numero: '))
@@ -14,6 +14,3 @@ def orden(e):
         print(h)
 
 orden(lista)
-#hola
-#efe
-#githug
