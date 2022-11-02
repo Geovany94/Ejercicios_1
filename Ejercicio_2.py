@@ -20,7 +20,11 @@ if total5 < 0:
     total5 *= -1
 restar_total = total2 - total4
 suma_total = restar_total + total5
-
+horas= int (suma_total / 3600) # / se toma el resultado de la division o cosciente
+minutos = int(suma_total % 3600)  #Se toma el residuo de la division
+minutos2 = int(minutos / 60)
+segundos = int(minutos % 60)
+#segundos = minutos2
 
 print("EL total de la resta de hora es: ", total1)
 print("El Total convertido de hora a segundos es: ", total2)
@@ -28,5 +32,10 @@ print("Total convertido de minutos a  segundos es: ", total4)
 print("TOtal de segundos restados es: ", total5)
 
 print(" DIFERENCIA DE SEGUNdOS ES: ", suma_total)
+
+print("TOtal ", horas)
+print("minutos",minutos2 )
+print("segundos", segundos)
+print("H:",horas,"Min:", minutos2, "Seg:",segundos)
 
 
